@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="image/01.jpg" alt="">
+            <div class="caption">caption:sunrise view</div>
+        </div>
+       <div class="slide">
+            <img src="image/02.jpg" alt="">
+            <div class="caption">caption:Dense view</div>
+        </div>
+        <div class="slide">
+            <img src="image/03.jpg" alt="">
+            <div class="caption">caption:smoke view</div>
+        </div>
+        <div class="slide">
+            <img src="image/04.jpg" alt="">
+            <div class="caption">caption:jungle view</div>
+        </div>
+        <div class="slide">
+            <img src="image/05.jpeg" alt="">
+            <div class="caption">caption:waterfall view</div>
+        </div>
+    </div>
+    <span class="arrow prev" onclick="controller(-1)">&lt</span>
+    <span class="arrow next" onclick="controller(1)">&gt</span>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
